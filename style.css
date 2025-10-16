@@ -13,15 +13,56 @@
 }
 
 .todo-app{
-    text-align: center;
-    display: inline;
-    max-width: 100px;
+    width:100%;
+    max-width: 540px;
+    background: #fff;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+}
+
+.todo-app h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-app h2 img{
+    width:50px;
+    margin-left: 10px;;
 }
 
 .todo-app img{
     width:100px;
 }
 
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #29201842;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding:10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
